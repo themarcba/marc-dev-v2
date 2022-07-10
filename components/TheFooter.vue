@@ -1,9 +1,12 @@
 <template>
     <footer class="flex align-center justify-center">
-        Made by
-        <AppLink to="https://twitter.com/themarcba" :muted="true">Marc</AppLink>
-        / with
-        <AppLink to="https://v3.nuxtjs.org/" :muted="true">Nuxt 3</AppLink>
+        Made by with
+        <AppLink to="https://v3.nuxtjs.org/" :muted="true">Nuxt 3</AppLink>. Hosted on
+        <AppLink to="https://netlify.com/" :muted="true">Netlify</AppLink>. Code is open
+        on
+        <AppLink to="https://github.com/themarcba/marc-dev-v2/" :muted="true"
+            >GitHub</AppLink
+        >.
     </footer>
 </template>
 
