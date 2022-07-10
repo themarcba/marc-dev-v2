@@ -1,5 +1,11 @@
+<script setup>
+useHead({
+    title: 'Marc Backes | Vue Developer 💚',
+})
+</script>
+
 <template>
-    <div id="app" class="text-gray-500">
+    <div id="app" class="text-gray-500 dark:text-gray-300">
         <TheHeader class="fixed" />
         <main class="app-main mt-16 p-5 flex">
             <NuxtPage />
@@ -8,13 +14,13 @@
     </div>
 </template>
 
-<script setup>
-useHead({
-    title: 'Marc Backes | Vue Developer 💚',
-})
-</script>
-
 <style lang="scss">
+html {
+    background-color: #fff;
+    &.dark {
+        background-color: #000;
+    }
+}
 #app {
     height: 100vh;
     display: flex;

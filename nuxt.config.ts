@@ -5,7 +5,12 @@ export default defineNuxtConfig({
     googleFonts: {
         families: { 'Zilla Slab': true },
     },
-    image: {
-        dir: 'assets/images',
+    tailwindcss: {
+        cssPath: '~/assets/css/tailwind.css',
+        configPath: 'tailwind.config.js',
+        exposeConfig: false,
+        config: {},
+        injectPosition: 0,
+        viewer: true,
     },
 })

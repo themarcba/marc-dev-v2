@@ -7,8 +7,8 @@ const { to, muted } = defineProps({
 
 const defaultClasses = ['font-bold', 'hover:underline', 'mx-1']
 const { classes } = useClass(defaultClasses, {
-    'text-black': !muted,
-    'hover:text-black': muted,
+    'text-black dark:text-white': !muted,
+    'hover:text-black hover:dark:text-white': muted,
 })
 </script>
 
