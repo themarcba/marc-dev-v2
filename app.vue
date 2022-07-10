@@ -8,7 +8,11 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+useHead({
+    title: 'Marc Backes | Vue Developer 💚',
+})
+</script>
 
 <style lang="scss">
 #app {
