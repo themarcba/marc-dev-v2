@@ -14,7 +14,6 @@
         "preview": "nuxt preview"
     },
     "devDependencies": {
-        "@nuxt/image-edge": "^1.0.0-27621400.93ce78a",
         "@nuxt/postcss8": "^1.1.3",
         "@nuxtjs/google-fonts": "^1.3.0",
         "@nuxtjs/tailwindcss": "^5.0.4",
