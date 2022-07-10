@@ -1,6 +1,11 @@
-# Nuxt 3 Minimal Starter
+# marc.dev version 2
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+I decided to open-source this so others can see how it's build, and for my own progress tracking.
+
+## Features
+
+-   [x] Basic structure
+-   [x] Link component `AppLink`
 
 ## Setup
 
@@ -38,5 +43,3 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
