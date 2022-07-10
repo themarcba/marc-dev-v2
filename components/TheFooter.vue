@@ -1,5 +1,5 @@
 <template>
-    <footer class="flex align-center justify-center">
+    <footer class="flex align-center justify-center p-2">
         Made by with
         <AppLink to="https://v3.nuxtjs.org/" :muted="true">Nuxt 3</AppLink>. Hosted on
         <AppLink to="https://netlify.com/" :muted="true">Netlify</AppLink>. Code is open
